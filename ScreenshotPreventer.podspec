@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ScreenshotPreventer'
-  spec.version      = '0.1.0'
+  spec.version      = '0.1.1'
   spec.summary      = 'A library to prevent screenshots in iOS apps'
   spec.description  = 'This library prevents users from taking screenshots in iOS apps.'
   spec.homepage     = 'https://github.com/nikhil8674/ScreenshotPreventer'
