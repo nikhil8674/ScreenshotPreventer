@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ScreenshotPreventer_Tests' do
+  pod 'ScreenshotPreventer', :path => '../'
+  
+  
+end
