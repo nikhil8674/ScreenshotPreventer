@@ -110,7 +110,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				4306EC4157B806203CF362B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,24 +170,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4306EC4157B806203CF362B2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ScreenshotPreventer_Tests/Pods-ScreenshotPreventer_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ScreenshotPreventer/ScreenshotPreventer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScreenshotPreventer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScreenshotPreventer_Tests/Pods-ScreenshotPreventer_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6C117E26A814D6AAF2816622 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

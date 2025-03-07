@@ -6,19 +6,26 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		DF0522EF414EFD2D957DBCC43EF01A51 /* ScreenshotPreventer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CA76DCEF71612EF26B3C1D2619BCCA3A /* Build configuration list for PBXAggregateTarget "ScreenshotPreventer" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ScreenshotPreventer;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0031C74EF58E42AFD66F86D72ADDADCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
-		569874363AC3D1D4B6DBAD4924F5A95E /* Pods-ScreenshotPreventer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C51C954A0E94746FD6D63C60876761 /* Pods-ScreenshotPreventer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B0842D22D7AC0B700D7642B /* ScreenshotBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0842D12D7AC0B700D7642B /* ScreenshotBlocker.swift */; };
-		9649FA9AC73E9E4F3FDBB98D51BED7E4 /* ScreenshotPreventer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E34424398980668E8CA2F692C3C0536D /* ScreenshotPreventer-dummy.m */; };
-		9CCDF725036E98E4315F4DEFFD2C5D2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		A81FA753F3D3D1BD048B2BA63B68F8FD /* ScreenshotPreventer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7640A798A5C9A2C6268778F40395D667 /* ScreenshotPreventer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC0F71F854BB978C5A9EF4BB0ED1860C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		EC4C0039E437DA1E57232104AC4635FC /* Pods-ScreenshotPreventer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B870AD88DD4573182658895A0632C2 /* Pods-ScreenshotPreventer_Tests-dummy.m */; };
+		569874363AC3D1D4B6DBAD4924F5A95E /* Pods-ScreenshotPreventer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A50917864C16ED0CF0A99C79ECAA9284 /* Pods-ScreenshotPreventer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CCDF725036E98E4315F4DEFFD2C5D2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		EC4C0039E437DA1E57232104AC4635FC /* Pods-ScreenshotPreventer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7BBAB304BE919B60DDA100AE32BEC /* Pods-ScreenshotPreventer_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		537E3F98DA8B11E42D06243C0368203C /* PBXContainerItemProxy */ = {
+		293F284BDB35B453400DB8D1DBF4AD94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -28,40 +35,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03B870AD88DD4573182658895A0632C2 /* Pods-ScreenshotPreventer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenshotPreventer_Tests-dummy.m"; sourceTree = "<group>"; };
-		0B58000E52CEE997769A6133520FA740 /* ScreenshotPreventer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenshotPreventer.release.xcconfig; sourceTree = "<group>"; };
-		0B90DBAF243F5BD665816CBBB1682B05 /* Pods-ScreenshotPreventer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenshotPreventer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		107A56CAA41A489AA0BAA68A95D6C8D2 /* Pods-ScreenshotPreventer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenshotPreventer_Tests.modulemap"; sourceTree = "<group>"; };
-		16096404479391C93A5ED3CCA11A7DF2 /* ScreenshotPreventer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScreenshotPreventer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		535F4240CF34EB6D5C56D7B1FDC2FB7C /* ScreenshotPreventer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScreenshotPreventer-Info.plist"; sourceTree = "<group>"; };
-		58822E9FBC44EE50377E58B97DF3D4EA /* Pods-ScreenshotPreventer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenshotPreventer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5B0842D12D7AC0B700D7642B /* ScreenshotBlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotBlocker.swift; sourceTree = "<group>"; };
-		6E2CE41C496F24F006F2DDEF36FF3FE0 /* Pods-ScreenshotPreventer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenshotPreventer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7640A798A5C9A2C6268778F40395D667 /* ScreenshotPreventer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenshotPreventer-umbrella.h"; sourceTree = "<group>"; };
-		80C51C954A0E94746FD6D63C60876761 /* Pods-ScreenshotPreventer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenshotPreventer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A88B4AB6644A3B52C979AE641B763BD0 /* Pods-ScreenshotPreventer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenshotPreventer_Tests-Info.plist"; sourceTree = "<group>"; };
-		AF24EA40442AE2FEDAB46B0C69BA6E65 /* Pods-ScreenshotPreventer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenshotPreventer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B37F1612791577FE42336442DFB4A76F /* ScreenshotPreventer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenshotPreventer.debug.xcconfig; sourceTree = "<group>"; };
-		B46D50FE6EF8E95DC95612AECF4BE621 /* Pods_ScreenshotPreventer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenshotPreventer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1A017794FE79649F4D546A6FBC14E62 /* ScreenshotPreventer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenshotPreventer-prefix.pch"; sourceTree = "<group>"; };
-		E34424398980668E8CA2F692C3C0536D /* ScreenshotPreventer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScreenshotPreventer-dummy.m"; sourceTree = "<group>"; };
-		E4F388B8A630522995005506501DA83A /* Pods-ScreenshotPreventer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenshotPreventer_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E71FFF9C951E51C253D19B57161170EA /* ScreenshotPreventer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScreenshotPreventer.modulemap; sourceTree = "<group>"; };
-		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2E94297D4919102764D8DB4F07696C47 /* ScreenshotPreventer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenshotPreventer.release.xcconfig; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		56F110DE4C874FA1D4760BA15DBDE7A0 /* Pods-ScreenshotPreventer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenshotPreventer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		59CB22596EAF547EAF0D235BCC6C3D1D /* Pods-ScreenshotPreventer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenshotPreventer_Tests-Info.plist"; sourceTree = "<group>"; };
+		61AD5512293BF48EB978571703E0CEB7 /* Pods-ScreenshotPreventer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenshotPreventer_Tests.modulemap"; sourceTree = "<group>"; };
+		6398E17C83968BA3D596D198769D1E13 /* Pods-ScreenshotPreventer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenshotPreventer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7FE7BBAB304BE919B60DDA100AE32BEC /* Pods-ScreenshotPreventer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenshotPreventer_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A50917864C16ED0CF0A99C79ECAA9284 /* Pods-ScreenshotPreventer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenshotPreventer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B46D50FE6EF8E95DC95612AECF4BE621 /* Pods-ScreenshotPreventer_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ScreenshotPreventer_Tests"; path = Pods_ScreenshotPreventer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3BF00F67BBEAC036A562E2D7AC3523 /* Pods-ScreenshotPreventer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenshotPreventer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA899C4EDD4F2AAF1437259817297531 /* ScreenshotPreventer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenshotPreventer.debug.xcconfig; sourceTree = "<group>"; };
+		EE77A12742CB7FC8363DDF98B8EB4752 /* Pods-ScreenshotPreventer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenshotPreventer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		282FDA200E327757EAD0026D386CB48B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC0F71F854BB978C5A9EF4BB0ED1860C /* Foundation.framework in Frameworks */,
-				0031C74EF58E42AFD66F86D72ADDADCB /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9E015E06DB2B603DBB48C7B62555F57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,86 +62,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		4FA3B8DEDA3854574359E054290055FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
+				B46D50FE6EF8E95DC95612AECF4BE621 /* Pods-ScreenshotPreventer_Tests */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
+		5BD5427E9A14791C383D72D8EC1BA7D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */,
-				ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		454D20F4AA8D2727A84F9FE7146FDDC8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E71FFF9C951E51C253D19B57161170EA /* ScreenshotPreventer.modulemap */,
-				E34424398980668E8CA2F692C3C0536D /* ScreenshotPreventer-dummy.m */,
-				535F4240CF34EB6D5C56D7B1FDC2FB7C /* ScreenshotPreventer-Info.plist */,
-				C1A017794FE79649F4D546A6FBC14E62 /* ScreenshotPreventer-prefix.pch */,
-				7640A798A5C9A2C6268778F40395D667 /* ScreenshotPreventer-umbrella.h */,
-				B37F1612791577FE42336442DFB4A76F /* ScreenshotPreventer.debug.xcconfig */,
-				0B58000E52CEE997769A6133520FA740 /* ScreenshotPreventer.release.xcconfig */,
+				EA899C4EDD4F2AAF1437259817297531 /* ScreenshotPreventer.debug.xcconfig */,
+				2E94297D4919102764D8DB4F07696C47 /* ScreenshotPreventer.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ScreenshotPreventer";
 			sourceTree = "<group>";
 		};
-		63FAE078A2CADD484061DC1B2BE6DFDA /* Targets Support Files */ = {
+		7ACE98DFCF3DDAFB71EEDE43FB6749CE /* ScreenshotPreventer */ = {
 			isa = PBXGroup;
 			children = (
-				87F783F6D48DC8283E9C11A136D1E4BC /* Pods-ScreenshotPreventer_Tests */,
+				5BD5427E9A14791C383D72D8EC1BA7D7 /* Support Files */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		87F783F6D48DC8283E9C11A136D1E4BC /* Pods-ScreenshotPreventer_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				107A56CAA41A489AA0BAA68A95D6C8D2 /* Pods-ScreenshotPreventer_Tests.modulemap */,
-				58822E9FBC44EE50377E58B97DF3D4EA /* Pods-ScreenshotPreventer_Tests-acknowledgements.markdown */,
-				6E2CE41C496F24F006F2DDEF36FF3FE0 /* Pods-ScreenshotPreventer_Tests-acknowledgements.plist */,
-				03B870AD88DD4573182658895A0632C2 /* Pods-ScreenshotPreventer_Tests-dummy.m */,
-				E4F388B8A630522995005506501DA83A /* Pods-ScreenshotPreventer_Tests-frameworks.sh */,
-				A88B4AB6644A3B52C979AE641B763BD0 /* Pods-ScreenshotPreventer_Tests-Info.plist */,
-				80C51C954A0E94746FD6D63C60876761 /* Pods-ScreenshotPreventer_Tests-umbrella.h */,
-				AF24EA40442AE2FEDAB46B0C69BA6E65 /* Pods-ScreenshotPreventer_Tests.debug.xcconfig */,
-				0B90DBAF243F5BD665816CBBB1682B05 /* Pods-ScreenshotPreventer_Tests.release.xcconfig */,
-			);
-			name = "Pods-ScreenshotPreventer_Tests";
-			path = "Target Support Files/Pods-ScreenshotPreventer_Tests";
-			sourceTree = "<group>";
-		};
-		973066B73BAE353855C14899A9FD4D47 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B46D50FE6EF8E95DC95612AECF4BE621 /* Pods_ScreenshotPreventer_Tests.framework */,
-				16096404479391C93A5ED3CCA11A7DF2 /* ScreenshotPreventer.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		AD0097629B6AAD53CB054E696B62540C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B0493167288F42278DDA4248E3A22B72 /* ScreenshotPreventer */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B0493167288F42278DDA4248E3A22B72 /* ScreenshotPreventer */ = {
-			isa = PBXGroup;
-			children = (
-				5B0842D12D7AC0B700D7642B /* ScreenshotBlocker.swift */,
-				454D20F4AA8D2727A84F9FE7146FDDC8 /* Support Files */,
-			);
+			name = ScreenshotPreventer;
 			path = ScreenshotPreventer;
 			sourceTree = "<group>";
 		};
@@ -160,24 +93,64 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				AD0097629B6AAD53CB054E696B62540C /* Pods */,
-				973066B73BAE353855C14899A9FD4D47 /* Products */,
-				63FAE078A2CADD484061DC1B2BE6DFDA /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F8688A48D58E6EB56CB432F59D2CEA40 /* Pods */,
+				4FA3B8DEDA3854574359E054290055FD /* Products */,
+				F6DAA620425EF3FA7087406F44FC09A4 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0A607F8E3C2FDC2F455E468333DDD9B /* Pods-ScreenshotPreventer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61AD5512293BF48EB978571703E0CEB7 /* Pods-ScreenshotPreventer_Tests.modulemap */,
+				EE77A12742CB7FC8363DDF98B8EB4752 /* Pods-ScreenshotPreventer_Tests-acknowledgements.markdown */,
+				BA3BF00F67BBEAC036A562E2D7AC3523 /* Pods-ScreenshotPreventer_Tests-acknowledgements.plist */,
+				7FE7BBAB304BE919B60DDA100AE32BEC /* Pods-ScreenshotPreventer_Tests-dummy.m */,
+				59CB22596EAF547EAF0D235BCC6C3D1D /* Pods-ScreenshotPreventer_Tests-Info.plist */,
+				A50917864C16ED0CF0A99C79ECAA9284 /* Pods-ScreenshotPreventer_Tests-umbrella.h */,
+				56F110DE4C874FA1D4760BA15DBDE7A0 /* Pods-ScreenshotPreventer_Tests.debug.xcconfig */,
+				6398E17C83968BA3D596D198769D1E13 /* Pods-ScreenshotPreventer_Tests.release.xcconfig */,
+			);
+			name = "Pods-ScreenshotPreventer_Tests";
+			path = "Target Support Files/Pods-ScreenshotPreventer_Tests";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F6DAA620425EF3FA7087406F44FC09A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0A607F8E3C2FDC2F455E468333DDD9B /* Pods-ScreenshotPreventer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8688A48D58E6EB56CB432F59D2CEA40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ACE98DFCF3DDAFB71EEDE43FB6749CE /* ScreenshotPreventer */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		798EA556AD3A64AA0758B7D7F375B14A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A81FA753F3D3D1BD048B2BA63B68F8FD /* ScreenshotPreventer-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8CE7EF60F30911C2BF6AF61FD7D3452C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,29 +174,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				8D1D75AA4C12F96A7947160EDD61EBD9 /* PBXTargetDependency */,
+				DF7A6314030C7F45BD279E277C3A0DAD /* PBXTargetDependency */,
 			);
 			name = "Pods-ScreenshotPreventer_Tests";
 			productName = Pods_ScreenshotPreventer_Tests;
-			productReference = B46D50FE6EF8E95DC95612AECF4BE621 /* Pods_ScreenshotPreventer_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DF0522EF414EFD2D957DBCC43EF01A51 /* ScreenshotPreventer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F1B61A9804F0F10159F66E9E5B7128AA /* Build configuration list for PBXNativeTarget "ScreenshotPreventer" */;
-			buildPhases = (
-				798EA556AD3A64AA0758B7D7F375B14A /* Headers */,
-				C5E65BD2A4B43CC0857C43B2189B9892 /* Sources */,
-				282FDA200E327757EAD0026D386CB48B /* Frameworks */,
-				39FD86D2C9719B87F5220CE58403777D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ScreenshotPreventer;
-			productName = ScreenshotPreventer;
-			productReference = 16096404479391C93A5ED3CCA11A7DF2 /* ScreenshotPreventer.framework */;
+			productReference = B46D50FE6EF8E95DC95612AECF4BE621 /* Pods-ScreenshotPreventer_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -244,7 +199,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 973066B73BAE353855C14899A9FD4D47 /* Products */;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4FA3B8DEDA3854574359E054290055FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -262,13 +219,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39FD86D2C9719B87F5220CE58403777D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -280,30 +230,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5E65BD2A4B43CC0857C43B2189B9892 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9649FA9AC73E9E4F3FDBB98D51BED7E4 /* ScreenshotPreventer-dummy.m in Sources */,
-				5B0842D22D7AC0B700D7642B /* ScreenshotBlocker.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8D1D75AA4C12F96A7947160EDD61EBD9 /* PBXTargetDependency */ = {
+		DF7A6314030C7F45BD279E277C3A0DAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ScreenshotPreventer;
 			target = DF0522EF414EFD2D957DBCC43EF01A51 /* ScreenshotPreventer */;
-			targetProxy = 537E3F98DA8B11E42D06243C0368203C /* PBXContainerItemProxy */;
+			targetProxy = 293F284BDB35B453400DB8D1DBF4AD94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		03D978C9140BB7E808A61FBE269D298F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B90DBAF243F5BD665816CBBB1682B05 /* Pods-ScreenshotPreventer_Tests.release.xcconfig */;
+			baseConfigurationReference = 6398E17C83968BA3D596D198769D1E13 /* Pods-ScreenshotPreventer_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -338,9 +279,25 @@
 			};
 			name = Release;
 		};
+		1A6B2CE434E4D564785B1D26F3FF8BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA899C4EDD4F2AAF1437259817297531 /* ScreenshotPreventer.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		36E9EBCFCCF5A5FF59D536BE3437F073 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF24EA40442AE2FEDAB46B0C69BA6E65 /* Pods-ScreenshotPreventer_Tests.debug.xcconfig */;
+			baseConfigurationReference = 56F110DE4C874FA1D4760BA15DBDE7A0 /* Pods-ScreenshotPreventer_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -373,6 +330,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		53E462002AF8F1C1C1A24F552E18BAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E94297D4919102764D8DB4F07696C47 /* ScreenshotPreventer.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -495,82 +469,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		C96817C95D55B4638F7788ADA6850383 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B37F1612791577FE42336442DFB4A76F /* ScreenshotPreventer.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/ScreenshotPreventer/ScreenshotPreventer-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/ScreenshotPreventer/ScreenshotPreventer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ScreenshotPreventer/ScreenshotPreventer.modulemap";
-				PRODUCT_MODULE_NAME = ScreenshotPreventer;
-				PRODUCT_NAME = ScreenshotPreventer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CA207CC11281423E1ED04CDFF217C738 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B58000E52CEE997769A6133520FA740 /* ScreenshotPreventer.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/ScreenshotPreventer/ScreenshotPreventer-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/ScreenshotPreventer/ScreenshotPreventer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ScreenshotPreventer/ScreenshotPreventer.modulemap";
-				PRODUCT_MODULE_NAME = ScreenshotPreventer;
-				PRODUCT_NAME = ScreenshotPreventer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -595,11 +497,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1B61A9804F0F10159F66E9E5B7128AA /* Build configuration list for PBXNativeTarget "ScreenshotPreventer" */ = {
+		CA76DCEF71612EF26B3C1D2619BCCA3A /* Build configuration list for PBXAggregateTarget "ScreenshotPreventer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C96817C95D55B4638F7788ADA6850383 /* Debug */,
-				CA207CC11281423E1ED04CDFF217C738 /* Release */,
+				1A6B2CE434E4D564785B1D26F3FF8BC2 /* Debug */,
+				53E462002AF8F1C1C1A24F552E18BAC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
