@@ -1,14 +1,14 @@
-Pod::Spec.new do |spec|
-  spec.name         = 'ScreenshotPreventer'
-  spec.version      = '0.1.2'
-  spec.summary      = 'A library to prevent screenshots in iOS apps'
-  spec.description  = 'This library prevents users from taking screenshots in iOS apps.'
-  spec.homepage     = 'https://github.com/nikhil8674/ScreenshotPreventer'
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
-  spec.author       = { 'Nikhil Kumar' => 'kumarnikhil@seasiainfotech.com' }
-  spec.source       = { :git => 'https://github.com/nikhil8674/ScreenshotPreventer.git', :tag => spec.version }
-  spec.platform     = :ios, '13.0'
-  spec.swift_version = '5.0'
-  s.source_files = 'ScreenshotPreventer/ScreenshotBlocker.swift'
-
+Pod::Spec.new do |s|
+  s.name             = 'ScreenshotPreventer'
+  s.version          = '0.1.2'  # Update this if necessary
+  s.summary          = 'A library to prevent screenshots'
+  s.description      = 'ScreenshotPreventer helps in blocking screenshots and screen recording in iOS applications.'
+  s.homepage         = 'https://github.com/yourusername/ScreenshotPreventer'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'Nikhil Kumar' => 'kumarnikhil@seasiainfotech.com' }
+  s.source           = { :git => 'https://github.com/yourusername/ScreenshotPreventer.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '11.0'
+  s.swift_version    = '5.0'
+  s.source_files     = 'ScreenshotPreventer/ScreenshotBlocker.swift'  # This line should use `s` instead of `spec`
+  s.frameworks       = 'UIKit'
 end
