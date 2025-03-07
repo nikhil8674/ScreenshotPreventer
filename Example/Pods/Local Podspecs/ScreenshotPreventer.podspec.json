@@ -1,22 +1,23 @@
 {
   "name": "ScreenshotPreventer",
-  "version": "0.1.0",
-  "summary": "A short description of ScreenshotPreventer.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "A library to prevent screenshots in iOS apps",
+  "description": "ScreenshotPreventer helps in blocking screenshots and screen recordings to protect sensitive data.",
   "homepage": "https://github.com/nikhil8674/ScreenshotPreventer",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "nikhil8674": "kumarnikhil@seasiainfotech.com"
+    "Nikhil Kumar": "your-email@example.com"
   },
   "source": {
     "git": "https://github.com/nikhil8674/ScreenshotPreventer.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "ScreenshotPreventer/Classes/**/*"
+  "source_files": "ScreenshotPreventer/**/*.{h,m,swift}",
+  "frameworks": "UIKit"
 }

@@ -1,6 +1,6 @@
-platform :ios, '13.0'  # Set this to the minimum iOS version you support
+platform :ios, '13.0'  
 use_frameworks!
 
 target 'ScreenshotPreventer_Tests' do
-  pod 'ScreenshotPreventer', :path => 'https://github.com/nikhil8674/ScreenshotPreventer.git'
+  pod 'ScreenshotPreventer', :git => 'https://github.com/nikhil8674/ScreenshotPreventer.git', :branch => 'main'
 end

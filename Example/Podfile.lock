@@ -1,0 +1,22 @@
+PODS:
+  - ScreenshotPreventer (1.0.0)
+
+DEPENDENCIES:
+  - ScreenshotPreventer (from `https://github.com/nikhil8674/ScreenshotPreventer.git`, branch `main`)
+
+EXTERNAL SOURCES:
+  ScreenshotPreventer:
+    :branch: main
+    :git: https://github.com/nikhil8674/ScreenshotPreventer.git
+
+CHECKOUT OPTIONS:
+  ScreenshotPreventer:
+    :commit: fe4382b06908cc636ae5b3a4657a11dc812cb470
+    :git: https://github.com/nikhil8674/ScreenshotPreventer.git
+
+SPEC CHECKSUMS:
+  ScreenshotPreventer: ed55a2f9cc5d60e4699825fc9179ca3076259d6c
+
+PODFILE CHECKSUM: b3206c0debe77029c01dd4ed57186d57700f95eb
+
+COCOAPODS: 1.16.2
