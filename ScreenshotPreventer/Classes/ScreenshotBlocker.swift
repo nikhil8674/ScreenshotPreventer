@@ -5,28 +5,26 @@
 //  Created by Nikhil Kumar on 07/03/25.
 //
 
-import Foundation
+import UIKit
 
-public class ScreenshotBlocker {
+public class ScreenshotBlocker: UIView {  // ✅ Inherit from UIView
 
     private var contentView: UIView?
-    
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }
-    
+
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         setup()
     }
-    
+
     private func setup() {
-        // Create a secure UITextField
         let secureField = UITextField()
         secureField.isSecureTextEntry = true
-        
-        // Extract the secure text field's protected layer
+
         if let textLayoutView = secureField.subviews.first {
             textLayoutView.translatesAutoresizingMaskIntoConstraints = false
             addSubview(textLayoutView)
@@ -39,15 +37,14 @@ public class ScreenshotBlocker {
             ])
         }
     }
-    
-    func addContentView(_ contentView: UIView) {
+
+    public func addContentView(_ contentView: UIView) {  // ✅ Mark as public if needed
         self.contentView = contentView
         contentView.translatesAutoresizingMaskIntoConstraints = false
-        
-        // Add content INSIDE the secure view (not separately)
+
         if let secureView = subviews.first {
             secureView.addSubview(contentView)
-            
+
             NSLayoutConstraint.activate([
                 contentView.leadingAnchor.constraint(equalTo: secureView.leadingAnchor),
                 contentView.trailingAnchor.constraint(equalTo: secureView.trailingAnchor),
