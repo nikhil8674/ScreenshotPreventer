@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ScreenshotPreventer'
-  spec.version      = '0.1.1'
+  spec.version      = '0.1.2'
   spec.summary      = 'A library to prevent screenshots in iOS apps'
   spec.description  = 'This library prevents users from taking screenshots in iOS apps.'
   spec.homepage     = 'https://github.com/nikhil8674/ScreenshotPreventer'
@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/nikhil8674/ScreenshotPreventer.git', :tag => spec.version }
   spec.platform     = :ios, '13.0'
   spec.swift_version = '5.0'
-  spec.source_files = 'ScreenshotPreventer/**/*.swift'
+  s.source_files = 'ScreenshotPreventer/ScreenshotBlocker.swift'
 
 end
